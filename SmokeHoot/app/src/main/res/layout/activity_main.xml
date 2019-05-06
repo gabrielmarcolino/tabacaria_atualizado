@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Criar conta gratuita"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="2sp"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp"
+            android:text="Crie sua conta gratuita para ter acesso aos cupons de desconto, fazer reservas e muito mais."
+            android:textAlignment="center"
+            android:textColor="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="eventoCadastrar"
+            android:text="Cadastrar-se" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:onClick="eventoEntrar"
+            android:text="Já tenho conta"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "963915944192",
+    "firebase_url": "https://smokehoot.firebaseio.com",
+    "project_id": "smokehoot",
+    "storage_bucket": "smokehoot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963915944192:android:7d461d3d5a3a738c",
+        "android_client_info": {
+          "package_name": "net.br.smokehoot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963915944192-nmdaeacusafr2nmv0n55ekduks6956le.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.br.smokehoot",
+            "certificate_hash": "b1e74405cee75dc6c6059b158f4352de20bd5e04"
+          }
+        },
+        {
+          "client_id": "963915944192-83dqm4gl06gnmh5ocqus62iotkpvqbcp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKwqHTK8-SQt68h1JqCzt3x9Ncy9KZ5p8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963915944192-83dqm4gl06gnmh5ocqus62iotkpvqbcp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
